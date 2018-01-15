@@ -99,7 +99,7 @@ const percentagePerParty = Object.keys(totalVotesPerParty).reduce(
   {}
 )
 
-const PERCENTAGE_THRESHOLD = 0.0
+const PERCENTAGE_THRESHOLD = 0.05
 
 const partiesQualifiedForEqualizationSeat = Object.keys(
   percentagePerParty
